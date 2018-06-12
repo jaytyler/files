@@ -1,0 +1,72 @@
+.toolbar {
+  display: flex;
+  vertical-align: middle;
+  padding: 1rem;
+  background: linear-gradient(#e40038, #980025);
+  border-bottom: 1px solid #7e001f;
+  color: white;
+}
+.toolbar .buttons {
+  flex: 1 0 0;
+  align-self: center;
+}
+.toolbar .buttons .sort {
+  vertical-align: middle;
+}
+.toolbar .buttons .sort .group-label {
+  font-weight: bold;
+  opacity: 0.75;
+}
+.toolbar .buttons .sort .item {
+  padding-left: 0.5rem;
+  opacity: 0.5;
+  cursor: pointer;
+}
+.toolbar .buttons .sort .active {
+  opacity: 1;
+  cursor: default;
+}
+.toolbar .buttons .fas {
+  padding-right: 1rem;
+  vertical-align: middle;
+  font-size: 150%;
+  cursor: pointer;
+}
+.toolbar .filter {
+  border-radius: 4rem;
+  padding: 0.2rem 0.6rem;
+  color: black;
+  outline: none;
+}
+
+.files {
+  padding: 1rem;
+  display: flex;
+}
+.files .item {
+  display: flex;
+  flex-direction: column;
+  padding: 1rem;
+  width: 10rem;
+}
+.files .item .icon {
+  font-size: 300%;
+  align-self: center;
+  padding-bottom: 0.5rem;
+  color: #e40038;
+}
+.files .item .name {
+  text-align: center;
+}
+.files .item .detail {
+  text-align: center;
+  opacity: 0.5;
+  font-size: 70%;
+  padding-top: 0.5rem;
+}
+
+.link {
+  cursor: pointer;
+}
+
+/*# sourceMappingURL=app.css.map */
